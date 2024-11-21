@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body
+.navbar{
+    background-color: #49BBBD;
+}
+body{
+    max-width: 100%;
+}
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+);
+.navbar-toggler:active,
+.navbar-toggler:focus,
+.navbar-toggler-icon:focus{
+    outline: none;
+    border: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(256, 256, 256, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/></svg%3E");
+}
+.navbar-toggler{
+    border: none;
+}
+.container-fluid{
+    .navbar-brand{
+        margin-left: 7.2vw;
+    }
+    .offcanvas{
+        background: #49BBBD;
+    }
+    .offcanvas-body{
+        background-color: none;
+        margin-right: 6.2vw;
+        .nav-item{
+            padding: 30px;
+            white-space: nowrap
+            }
+            .btnbg{
+                background-color: white;
+                color: #5B5B5B;
+                padding:7px;
+                padding-left: 1.8vw;
+                padding-right: 1.8vw;
+                border-radius: 1vw;
+                font-weight: 500;
+            }
+            .nav-link{
+                font-family: Poppins;
+                font-weight: 300;
+                font-size: 1em;
+                color: white;
+            }
+        }
+    }
+.alert{
+    font-family: Poppins;
+    h4{
+        color: #2F327D;
+    }
+    p{
+        color: #696984;
+    }
+}
+.btn{
+    font-family: Poppins;
+    background-color: #49BBBD;
+    border: none;
+}
+.header-text{
+    h2{
+        color: #49BBBD;
+    }
+}
+.form-control{
+    font-family: Poppins;
+}
+.small{
+    font-family: Poppins;
+}
+.Footer{
+    p{
+        font-family: Poppins;
+        font-weight: 500;
+    }
+    font-family:Poppins;
+    .text-center{
+        font-family: Poppins;
+        color: #B2B3CF;
+        font-weight: 300;
+    }
+    .logofooter{
+        margin-right: 2vw;
+    }
+}
